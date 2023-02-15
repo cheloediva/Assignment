@@ -2,6 +2,10 @@
 
 //Assignment instructions:
 //1. Create a new class called CalculateG. 
+
+public class CalculateG {
+  ;}
+  
 /2. Copy and paste the following initial version of the code. Note variables declaration and the types. 
 class CalculateG { 
     public static void main(String[] arguments){ 
