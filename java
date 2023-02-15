@@ -54,8 +54,31 @@ class CalculateG {
 } 
 }
 
-4. Run the completed code in Eclipse (Run → Run As → Java Application). 5.
-Extend datatype class with the following code: 
+4. Run the completed code in Eclipse (Run → Run As → Java Application).
+
+  
+
+class CalculateG { 
+  public static void main(String[] arguments){ 
+      a=-9.81; // Earth's gravity in m/s^2
+      t= 30; 
+      vi= 0.0; 
+      x= 0.0; 
+          // Add the formulas for position and velocity 
+    //finalVelocity
+    v(t) = a * t * vi ;
+    //distance
+    xi = 0.5 * a * t*t + 𝑣𝑖𝑡 + 𝑥𝑖;
+    
+    System.out.println("The object's position after " + t + " seconds is " 
+    + xi + " x"); 
+    // Add output line for velocity (similar to position) 
+    System.out.println("The object's finalVelocity after " + t + " seconds is " 
+    + v + xi);
+  } 
+}
+
+5.Extend datatype class with the following code: 
 public class CalculateG { 
 public static double multi(……){ 
 // method for multiplication
@@ -71,3 +94,24 @@ result
 } 
 6. Create methods for multiplication, powering to square, summation and printing out a result in 
 CalculateG class.
+  
+
+class CalculateG { 
+  public static void main(String[] arguments){ 
+      a=-9.81; // Earth's gravity in m/s^2
+      t= 30; 
+      vi= 0.0; 
+      x= 0.0; 
+          // Add the formulas for position and velocity 
+    //finalVelocity
+    v(t) = a * t * vi ;
+    //distance
+    xi = (0.5 * a * (t^2)) + 𝑣𝑖𝑡 + 𝑥𝑖;
+    
+    System.out.println("The object's position after " + t + " seconds is " 
+    + xi + " x"); 
+    // Add output line for velocity (similar to position) 
+    System.out.println("The object's finalVelocity after " + t + " seconds is " 
+    + v + xi);
+  } 
+}
