@@ -83,6 +83,36 @@ public class CalculateG {
 public static double multi(……){ 
 // method for multiplication
 } 
+
+public class CalculateG {
+
+    private static int a=-9.81;
+    private static int t= 30;
+    private static int vi= 0.0; 
+    private static int x= 0.0; 
+    
+
+    public static double ans() {
+
+        return v(t) = a * t * vi ;
+    }
+    
+    public static double ans2() {
+
+        xi = 0.5 * a * t*t + 𝑣𝑖𝑡 + 𝑥𝑖;
+    }
+
+    public static void main(String[] args) {
+
+            System.out.println("The object's position after " + t + " seconds is " 
+    + ans2 + " x"); 
+    // Add output line for velocity (similar to position) 
+    System.out.println("The object's finalVelocity after " + t + " seconds is " 
+    + ans + ans2);
+    }   
+}
+
+
 // add 2 more methods for powering to square and summation (similar to multiplication)
 public static void outline(……){ 
 // method for printing out a result
